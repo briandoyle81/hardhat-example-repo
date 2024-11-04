@@ -1,13 +1,11 @@
 # Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This is a copy of the default Hardhat project.
 
-Try running some of the following tasks:
+`npm install`
+
+Add `.env` with your key as `METAMASK_WALLET_1=`
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.ts --network testnet
 ```
